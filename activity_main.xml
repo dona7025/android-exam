@@ -6,54 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <Button
         android:id="@+id/b1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ajay"
-        android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp"
-        />
+        android:text="Add"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="180dp" />
 
     <Button
         android:id="@+id/b2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sachin"
-        android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="48dp" />
+        android:text="Sub"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="240dp" />
 
-
-
-    /home/sjcet/Downloads/MyApplication/app/src/main/java
     <Button
         android:id="@+id/b3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sumit"
-        android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="93dp" />
+        android:text="Mult"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <Button
         android:id="@+id/b4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tarun"
-        android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:text="Div"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="360dp" />
 
-    <Button
-        android:id="@+id/b5"
+    <TextView
+        android:id="@+id/t1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Yogesh"
-        android:textAlignment="textStart"
-
+        android:layout_height="43dp"
+        android:text="Result"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="189dp" />
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number 1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number 2"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="49dp" />
 
 </android.support.constraint.ConstraintLayout>
